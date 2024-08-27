@@ -80,6 +80,7 @@ class ConfidenceCalculator():
     def calculate_confidence(self, output):
         # outputs['scores'] - the scores for the generated text
         # outputs['sequences'] - the result the was just outputs before
+        return
         outputs = output
 
         epsilon = 1e-10
